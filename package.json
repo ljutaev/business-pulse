@@ -1,6 +1,6 @@
 {
-  "name": "business-pulse",
-  "version": "0.1.0",
+  "name": "busines-pulse",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -8,22 +8,54 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@mlqt/vue-back-top": "^1.0.8",
     "core-js": "^3.6.5",
+    "hooper": "^0.3.4",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.1.1",
+    "vee-validate": "^3.4.7",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0"
+    "vue-cool-lightbox": "^2.7.4",
+    "vue-particles": "^1.0.9",
+    "vue-router": "^3.5.1",
+    "vue-scroll-reveal": "^1.0.11",
+    "vue-scrollactive": "^0.9.3",
+    "vuejs-scroll-fixed-header": "^1.0.3"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.5.0",
-    "@vue/cli-plugin-eslint": "^4.5.0",
-    "@vue/cli-service": "^4.5.0",
-    "@vue/eslint-config-standard": "^5.1.2",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11"
-  }
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "description": "## Project setup",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "\u001b[2~\u001b[2~"
+  },
+  "author": "",
+  "license": "ISC"
 }
